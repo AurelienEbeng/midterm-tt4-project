@@ -1,9 +1,19 @@
 import './index.scss';
 
 // images
-import enginakyurt from "./assets/images/pexels-enginakyurt-4458519.jpg";
-import quangVietNguyen from "./assets/images/pexels-quang-viet-nguyen-107013384-9561297.jpg";
-import yaazhini from "./assets/images/pexels-yaazhini-17307532.jpg";
+
+import img1 from "./assets/images/01.jpg";
+import img2 from "./assets/images/02.jpg";
+import img3 from "./assets/images/03.jpg";
+import img4 from "./assets/images/04.jpg";
+import img5 from "./assets/images/05.jpg";
+import img6 from "./assets/images/06.jpg";
+import img7 from "./assets/images/07.jpg";
+import img8 from "./assets/images/08.jpg";
+import img9 from "./assets/images/09.jpg";
+import img10 from "./assets/images/10.jpg";
+import img11 from "./assets/images/11.jpg";
+import img12 from "./assets/images/12.jpg";
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -11,95 +21,76 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const products = [
         {
-            name: 'Fujfilm Camera',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-            image: enginakyurt,
-            price: "$54"
-        },
-        {
-            name: 'Canon Camera',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-            image: quangVietNguyen,
-            price: "$54"
-        },
-        {
-            name: 'Nikon Camera',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-            image: yaazhini,
-            price: "$54"
-        }
-        ,
-        {
             name: 'Black sneakers',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-            image: "./assets/images/01.jpg",
+            image: img1,
             price: "$98"
         }
         ,
         {
             name: 'Light bulb',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-            image: "./assets/images/02.jpg",
+            image: img2,
             price: "$5"
         },
         {
             name: 'Table',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-            image: "./assets/images/03.jpg",
+            image: img3,
             price: "$134"
         },
         {
             name: 'Chair',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-            image: "./assets/images/04.jpg",
+            image: img4,
             price: "$110"
         },
         {
             name: 'White sneakers',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-            image: "./assets/images/05.jpg",
+            image: img5,
             price: "$134"
         },
         {
             name: 'Prickly',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-            image: "./assets/images/06.jpg",
+            image: img6,
             price: "$144"
         },
         {
             name: 'Camera',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-            image: "./assets/images/07.jpg",
+            image: img7,
             price: "$75"
         },
         {
             name: 'CBD',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-            image: "./assets/images/08.jpg",
+            image: img8,
             price: "$34"
         },
         {
             name: 'Eye liner',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-            image: "./assets/images/09.jpg",
+            image: img9,
             price: "$15"
         },
         {
             name: 'Deserts',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-            image: "./assets/images/10.jpg",
+            image: img10,
             price: "$123"
         },
         {
             name: 'Queen of Seduction',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-            image: "./assets/images/11.jpg",
+            image: img11,
             price: "$250"
         },
         {
             name: 'Pen',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-            image: "./assets/images/12.jpg",
+            image: img12,
             price: "$1"
         }
     ];
